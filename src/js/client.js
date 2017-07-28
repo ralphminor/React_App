@@ -13,8 +13,8 @@ ReactDOM.render(
   <Router history={hashHistory}>
     <Route path="/" component={Layout}>
       <IndexRoute component={Todos}/>
-      <Route path="/favorites" component={Favorites}></Route>
-      <Route path="/settings" component={Settings}/>
+      <Route path="favorites" component={Favorites}></Route>
+      <Route path="settings" component={Settings}/>
     </Route>
   </Router>,
   app);

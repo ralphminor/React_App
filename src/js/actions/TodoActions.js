@@ -28,7 +28,7 @@ export function reloadTodos() {
       },
       {
         id: 6262627272,
-        text: "Hug Wife",
+        text: "Hug Wife Again",
         complete: true
       },
     ]});
